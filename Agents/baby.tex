@@ -1,0 +1,133 @@
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{1pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{1pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape [CANDIDATE_NAME]} \\ \vspace{1pt}
+    [LOCATION], State, Country \\ \vspace{1pt}
+    \small \faPhone\ [PHONE] ~ 
+    \href{mailto:[EMAIL]}{\faEnvelope\ \textcolor{blue}{[EMAIL]}} ~ 
+    \href{[LINKEDIN_URL]}{\faLinkedin\ \textcolor{blue}{LinkedIn}} ~
+    \href{[GITHUB_URL]}{\faGithub\ \textcolor{blue}{GitHub}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section*{Education}
+\noindent
+\textbf{[UNIVERSITY]}, [UNI_LOCATION] \hfill \textit{[UNI_START] -- [UNI_END]} \\
+Bachelor of Science in Computer Science \hfill \textbf{[GPA]} \\[6pt]
+
+\noindent
+\textbf{[PREV_COLLEGE]}, [PREV_LOCATION] \hfill \textit{[UNI_START] -- [UNI_END]} \\
+[PREV_DEGREE] – [PREV_STREAM] \hfill \textbf{[PREV_PERCENTAGE]}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeItemListStart
+    \resumeItem{Experienced software engineer with a strong foundation in technical engineering disciplines and computer science.}
+    \resumeItem{Proven track record in developing secure applications, with experience in security screening and Microsoft cloud background checks.}
+    \resumeItem{Proficient in Java, C#, C++, and Python, with extensive coding experience in various technical projects.}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section*{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading{Secure Web Application Development}{}
+\resumeItemListStart
+    \resumeItem{Led the development of a secure web application using Java and C#, implementing robust security features and passing security screenings.}
+    \resumeItem{Optimized application performance, resulting in a 30\% increase in load speed and a 20\% reduction in server costs.}
+\resumeItemListEnd
+\resumeProjectHeading{Cloud-Based Data Processing System}{}
+\resumeItemListStart
+    \resumeItem{Developed a cloud-based data processing system using Microsoft Azure, ensuring compliance with Microsoft cloud background checks.}
+    \resumeItem{Improved data processing efficiency by 40\% through the integration of advanced algorithms in C++.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------CP-----------
+\section*{Competitive Programming}
+\resumeItemListStart
+    \resumeItem{Achieved top 5\% in global coding competitions, demonstrating proficiency in algorithmic problem-solving using C++ and Python.}
+    \resumeItem{Developed innovative solutions to complex problems, enhancing coding skills and technical discipline.}
+    \resumeItem{Consistently ranked among the top performers in national coding contests.}
+\resumeItemListEnd
+
+%-----------INVOLVEMENTS-----------
+\section*{Hackathons \& Involvements}
+\resumeItemListStart
+  \resumeItem{Winner of [HACKATHON_1], where I developed a Java-based application that improved user engagement by 50\%.}
+  \resumeItem{Participated in [HACKATHON_OR_INVOLVEMENT_2], focusing on cloud solutions using Microsoft technologies.}
+  \resumeItem{Contributed to [HACKATHON_OR_INVOLVEMENT_3] by implementing secure coding practices in C#.}
+  \resumeItem{Engaged in [HACKATHON_OR_INVOLVEMENT_4], enhancing technical engineering experience through collaborative projects.}
+\resumeItemListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\resumeItemListStart
+    \resumeItem{\textbf{Languages:} Java, C#, C++, Python, JavaScript}
+    \resumeItem{\textbf{Core:} Technical engineering experience, security screening, cloud computing}
+    \resumeItem{\textbf{Tools:} Microsoft Azure, Git, Docker, Jenkins}
+    \resumeItem{\textbf{Additional Skills:} Problem-solving, algorithm design, software optimization}
+\resumeItemListEnd
+
+%-----------LANGUAGES & INTERESTS-----------
+\section{Languages \& Hobbies}
+\resumeItemListStart
+    \resumeItem{\textbf{Languages:} [SPOKEN_LANGUAGES]}
+    \resumeItem{\textbf{Interests:} [INTERESTS]}
+\resumeItemListEnd
+
+\end{document}

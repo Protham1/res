@@ -1,0 +1,135 @@
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{1pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{1pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Pratham Nilange} \\ \vspace{1pt}
+    Bengaluru, Karnataka, India \\ \vspace{1pt}
+    \small \faPhone\ 8431306494 ~ 
+    \href{mailto:prathamnilange@gmail.com}{\faEnvelope\ \textcolor{blue}{prathamnilange@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/pratham-nilange-b55773293/}{\faLinkedin\ \textcolor{blue}{LinkedIn}} ~
+    \href{https://github.com/Protham1}{\faGithub\ \textcolor{blue}{GitHub}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section*{Education}
+\noindent
+\textbf{R.V College Of Engineering}, Bengaluru \hfill \textit{Oct 2023 -- Sept 2027} \\
+Bachelor of Engineering (B.E.) in Information Science \hfill \textbf{CGPA: 8.93/10} \\[6pt]
+
+\noindent
+\textbf{Sri Chaitanya PU College}, Bengaluru \hfill \textit{2021 -- 2023} \\
+Pre-University Course (PUC) – PCMC Stream \hfill \textbf{92.7\%}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeItemListStart
+    \resumeItem{Information Science undergraduate with strong experience in data structures, algorithms, machine learning, and IoT.}
+    \resumeItem{Quick learner and team player with hands-on project development in large software systems and hackathon participation.}
+    \resumeItem{Areas of Interest: Parallel Systems, Networking, NLP, GenAI, ML, and Software Design.}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section*{Projects}
+\noindent
+\textbf{ClubVerse - The College Club Management System} \textit{Flutter, Firebase, AI} \\
+Streamlined event planning, membership tracking, and resource allocation. Enabled messaging, announcements, and real-time analytics for improved engagement. Integrated networking protocols for seamless communication. \href{https://github.com/Protham1/Clubs}{(link)} \\[6pt]
+
+\noindent
+\textbf{DIASR – Intrusion Detection \& Secure Routing} \textit{Python, ML, Flask, IoT} \\
+Built a hybrid framework using Isolation Forest + DSR protocol. Raspberry Pi agents performed trust management and defended against blackhole/Sybil attacks. Enhanced system security using advanced algorithms. \href{https://github.com/Protham1/DIDS/tree/v1}{(link)} \\[6pt]
+
+\noindent
+\textbf{FreshPredict – Fruit \& Vegetable Freshness Classifier} \textit{Python, CNN, Deep Learning} \\
+Achieved \textbf{92\%} accuracy in classifying produce freshness. Used transfer learning and image augmentation for robust food quality monitoring. Applied machine learning techniques for data-driven insights. \href{https://github.com/Protham1/FreshPredict}{(link)} \\[6pt]
+
+\noindent
+\textbf{Neural Network in C++ (From Scratch)} \textit{C++, Deep Learning} \\
+Implemented memory-efficient feedforward neural net with backpropagation, showcasing understanding of deep learning pipelines. Demonstrated proficiency in software design and algorithm optimization. \href{https://github.com/Protham1/DL}{(link)} \\[6pt]
+
+%-----------CP-----------
+\section*{Competitive Programming}
+\resumeItemListStart
+    \resumeItem{Consistently solve problems across LeetCode, Codeforces, CSES using advanced data structures and algorithms.}
+    \resumeItem{\textbf{LeetCode:} Rated 1500+ (Top \~15\% globally)}
+    \resumeItem{Focus on DSA patterns, optimization, and time-bound logic building.}
+\resumeItemListEnd
+
+%-----------INVOLVEMENTS-----------
+\section*{Hackathons \& Involvements}
+\resumeItemListStart
+  \resumeItem{\textbf{DSA Hackathon – PhaseShift, BMSCE (Dec 2024):} Top 10 among 100+ teams, solved algorithmic challenges under time pressure.}
+  \resumeItem{\textbf{Food Safety Hackathon – IIT Bhubaneswar (Sept 2024):} Proposed AI-based food safety solutions.}
+  \resumeItem{\textbf{Alaap (Music Club):} Guitarist at college events.}
+  \resumeItem{\textbf{NSS:} Volunteer in social activities.}
+\resumeItemListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\resumeItemListStart
+    \resumeItem{\textbf{Languages:} Python, C++, C, Java, JavaScript, HTML/CSS, C\#}
+    \resumeItem{\textbf{Core:} Data Structures, Algorithms, Neural Networks, Machine Learning, IoT, NLP, LLMs, Software Design, Parallel Systems, Networking}
+    \resumeItem{\textbf{Tools:} Git, GitHub, VS Code, Firebase, Flutter, Colab, Azure (Beginner)}
+\resumeItemListEnd
+
+%-----------LANGUAGES & INTERESTS-----------
+\section{Languages \& Hobbies}
+\resumeItemListStart
+    \resumeItem{\textbf{Languages:} English, Hindi, Kannada (Fluent)}
+    \resumeItem{\textbf{Interests:} Badminton, Guitar, Music Production, Reading}
+\resumeItemListEnd
+
+\end{document}
